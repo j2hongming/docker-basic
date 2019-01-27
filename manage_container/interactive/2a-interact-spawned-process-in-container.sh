@@ -8,4 +8,4 @@ docker container exec nginx-background pwd
 
 # multiple commands
 # docker container exec nginx-background pwd && ls -la
-docker container exec nginx-background /bin/bash -c "pwd && ls -la“
+docker container exec nginx-background /bin/bash -c "pwd && ls -la"
